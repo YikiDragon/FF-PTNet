@@ -52,8 +52,10 @@ if __name__ == '__main__':
     path_po = './datasets/smpl/id24_572.obj'
     path_id = './datasets/smpl/id26_788.obj'
     path_gt = './datasets/smpl/id26_572.obj'
+    model_name = 'model_smpl.pth'
     v_out, mesh_pred = demo(path_id,
                             path_po,
                             model=FF_PTNet(),
-                            model_name='model_smpl.pth',
-                            path_gt=path_gt)
+                            model_name=model_name,
+                            path_gt=path_gt
+                            )
