@@ -31,7 +31,7 @@ Our code has been tested with Python 3.7, Pytorch1.13.0, CUDA 11.7 on Ubuntu 20.
 
 ## Dataset and pre-trained model
 We use [SMPL](https://smpl.is.tue.mpg.de/) as the human mesh data, and [SMAL](https://smal.is.tue.mpg.de/) as the animal mesh data.  
-Please download them and pre-trained model [here]().  
+Please download them and pre-trained model [here](https://drive.google.com/drive/folders/1Y-IdEe7hfHW77UQLJVOBw-yW7aGH0Tbf).  
 Run the following command in the root directory of the code to create the necessary folders:
 ```bash
 mkdir datasets
