@@ -48,6 +48,7 @@ Then, the generated results will be in the `results` folder.
 | Source mesh | Targe mesh | Output mesh | Ground truth mesh |
 |:-----------:|:----------:|:-----------:|:-----------------:|
 | `po.obj`      | `id.obj`     | `out.obj`     | `gt.obj`            |
+
 If you want to customize the input meshes, you can change the mesh file path in `demo.py`
 ```
 path_po = './datasets/smpl/xxx.obj'     # source
