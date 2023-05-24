@@ -31,7 +31,7 @@ Our code has been tested with Python 3.7, Pytorch1.13.0, CUDA 11.7 on Ubuntu 20.
 
 ## Dataset and pre-trained model
 We use [SMPL](https://smpl.is.tue.mpg.de/) as the human mesh data, and [SMAL](https://smal.is.tue.mpg.de/) as the animal mesh data.  
-please download them and pre-trained model [here]().  
+Please download them and pre-trained model [here]().  
 Run the following command in the root directory of the code to create the necessary folders:
 ```bash
 mkdir datasets
@@ -84,11 +84,10 @@ python train.py
 ```
 
 ## Evaluation
-eval.py is the code for evaluation.
+`eval.py` is the code for evaluation.
 
 ## Acknowledgement
-Part of our code is based on [NPT](https://github.com/jiashunwang/Neural-Pose-Transfer)，and [SEAN](https://github.com/ZPdesu/SEAN)
-). Many thanks!
+Part of our code is based on [NPT](https://github.com/jiashunwang/Neural-Pose-Transfer)，and [SEAN](https://github.com/ZPdesu/SEAN). Many thanks!
 
 ## License
 MIT License
