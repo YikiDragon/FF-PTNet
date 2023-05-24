@@ -1,5 +1,5 @@
 # Dual-Side Feature Fusion 3D Pose Transfer
-This is an implementation of the paper "Dual-Side Feature Fusion 3D Pose Transfer".  
+This is an implementation of *FF-PTNet* proposed by the paper "Dual-Side Feature Fusion 3D Pose Transfer".  
 Please check our [paper]() for more details.
 <img src="result/example.png" width="100%" height="100%" /> <br>
 ## Source Code
