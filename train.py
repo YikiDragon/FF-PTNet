@@ -84,15 +84,15 @@ def train_simple_dataset(model: torch.nn.Module,
 if __name__ == '__main__':
     from model import FF_PTNet
     from data_load.smpl import SMPLDataset
-    NPTDS_train = SMPLDataset(path='./datasets/smpl/',
-                              identity_num=30,
-                              pose_num=800,
-                              identity_range=(0, 15),
-                              pose_range=(0, 399),
-                              shuffle_points=True,
-                              type='obj')
+    dataset = SMPLDataset(path='./datasets/smpl/',
+                          identity_num=30,
+                          pose_num=800,
+                          identity_range=(0, 15),
+                          pose_range=(0, 399),
+                          shuffle_points=True,
+                          type='obj')
     train_simple_dataset(model=FF_PTNet(),
-                         train_dataset=NPTDS_train,
+                         train_dataset=dataset,
                          saved_name='model_smpl.pth',
                          lr=0.001,
                          batch_size=8,
