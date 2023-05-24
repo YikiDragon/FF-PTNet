@@ -24,7 +24,6 @@ conda install pyg -c pyg
 # install trimesh
 conda install -c conda-forge trimesh
 # install other packages
-conda install -c conda-forge trimesh
 pip install tqdm natsort
 ```
 Our code has been tested with Python 3.7, Pytorch1.13.0, CUDA 11.7 on Ubuntu 20.04.
