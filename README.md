@@ -1,6 +1,7 @@
 # Dual-Side Feature Fusion 3D Pose Transfer
 This is an implementation of *FF-PTNet* proposed by the paper "Dual-Side Feature Fusion 3D Pose Transfer".  
-Please check our [paper](https://arxiv.org/abs/2305.14951) for more details.
+Please check our [paper](https://arxiv.org/abs/2305.14951) for more details.  
+<img src="result/example.png" width="80%" height="80%" /> <br>  
 #### Citation
 If you use our code or paper, please consider citing:
 ```
@@ -13,7 +14,6 @@ If you use our code or paper, please consider citing:
       primaryClass={cs.CV}
 }
 ```
-<img src="result/example.png" width="80%" height="80%" /> <br>
 ## Source Code
 ```bash
 git clone https://github.com/YikiDragon/FF-PTNet.git
