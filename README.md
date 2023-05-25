@@ -4,12 +4,13 @@ Please check our [paper](https://arxiv.org/abs/2305.14951) for more details.
 #### Citation
 If you use our code or paper, please consider citing:
 ```
-@inproceedings{wang2020neural,
-  title={Neural Pose Transfer by Spatially Adaptive Instance Normalization},
-  author={Wang, Jiashun and Wen, Chao and Fu, Yanwei and Lin, Haitao and Zou, Tianyun and Xue, Xiangyang and Zhang, Yinda},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={5831--5839},
-  year={2020}
+@misc{liu2023dualside,
+      title={Dual-Side Feature Fusion 3D Pose Transfer}, 
+      author={Jue Liu and Feipeng Da},
+      year={2023},
+      eprint={2305.14951},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 <img src="result/example.png" width="80%" height="80%" /> <br>
