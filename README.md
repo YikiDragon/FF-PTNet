@@ -1,6 +1,17 @@
 # Dual-Side Feature Fusion 3D Pose Transfer
 This is an implementation of *FF-PTNet* proposed by the paper "Dual-Side Feature Fusion 3D Pose Transfer".  
-
+Please check our [paper](https://arxiv.org/abs/2305.14951) for more details.
+#### Citation
+If you use our code or paper, please consider citing:
+```
+@inproceedings{wang2020neural,
+  title={Neural Pose Transfer by Spatially Adaptive Instance Normalization},
+  author={Wang, Jiashun and Wen, Chao and Fu, Yanwei and Lin, Haitao and Zou, Tianyun and Xue, Xiangyang and Zhang, Yinda},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5831--5839},
+  year={2020}
+}
+```
 <img src="result/example.png" width="80%" height="80%" /> <br>
 ## Source Code
 ```bash
