@@ -44,7 +44,7 @@ python demo.py
 ```
 Then, the generated results will be in the `results` folder.
 
-| Source mesh | Targe mesh | Output mesh | Ground truth mesh |
+| Source mesh | Target mesh | Output mesh | Ground truth mesh |
 |:-----------:|:----------:|:-----------:|:-----------------:|
 | `po.obj`      | `id.obj`     | `out.obj`     | `gt.obj`            |
 
