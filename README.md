@@ -66,7 +66,7 @@ path_po = './datasets/smpl/xxx.obj'     # source
 path_id = './datasets/smpl/xxx.obj'     # target
 path_gt = './datasets/smpl/xxx.obj'     # groundtruth(optional)
 ```
-For SMAL(animal), you should change the parameter `model_name='model_smal.pth'`
+For SMAL(animal), you should set the parameter `model_name='model_smal.pth'` in `demo.py`  
 ```
 v_out, mesh_pred = demo(path_id,
                         path_po,
@@ -75,6 +75,7 @@ v_out, mesh_pred = demo(path_id,
                         path_gt=path_gt               # remove it if you haven't groundtruth mesh
                         )
 ```
+Then run `demo.py`  
 ## Training
 For SMPL(human), make sure the datasets folder `smpl` is complete and correctly placed in `datasets`, and run `train.py` directly.
 ```
