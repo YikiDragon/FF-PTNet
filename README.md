@@ -76,6 +76,9 @@ v_out, mesh_pred = demo(path_id,
                         )
 ```
 Then run `demo.py`  
+```bash
+python demo.py
+```  
 ## Training
 For SMPL(human), make sure the datasets folder `smpl` is complete and correctly placed in `datasets`, and run `train.py` directly.
 ```
